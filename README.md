@@ -8,7 +8,9 @@ repeat task.wait() until KeySystemUI.Finished() or KeySystemUI.Closed
 if KeySystemUI.Finished() and KeySystemUI.Closed == false then
 
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/Steal-a-Brianrot/refs/heads/main/Instant%20steal.lua"))()
-
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Youifpg/Steal-a-Brianrot/refs/heads/main/ArbixHubV4.lua"))()
+wait(300)
+game:GetService("TeleportService"):teleport(game.PlaceId)
 else
     game.Players.LocalPlayer:kick("Compra la key a marchoso")
 end
